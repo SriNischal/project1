@@ -1,0 +1,160 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 14, Failures: 13, Errors: 0, Skipped: 0, Time elapsed: 46.863 sec <<< FAILURE! - in TestSuite
+heatclinic(com.atmecs.tutorialninja.testscripts.HeatClinic)  Time elapsed: 3.962 sec  <<< FAILURE!
+org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a id="cartLink" class="modalcart" href="/cart">...</a> is not clickable at point (930, 19). Other element would receive the click: <div id="simplemodal-overlay" class="simplemodal-overlay" style="opacity: 0.5; height: 1395px; width: 1014px; position: fixed; left: 0px; top: 0px; z-index: 1001;"></div>
+  (Session info: chrome=78.0.3904.97)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ATMECSINLT-060', ip: '55.55.52.253', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.97, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: C:\Windows\TEMP\scoped_dir1...}, goog:chromeOptions: {debuggerAddress: localhost:61572}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 4e943897bb5549a72ff16b5c8010f504
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at com.atmecs.tutorialninja.Testsuite.Pageactions.clickOnElement(Pageactions.java:84)
+	at com.atmecs.tutorialninja.testscripts.HeatClinic.heatclinic(HeatClinic.java:61)
+
+heatclinic(com.atmecs.tutorialninja.testscripts.HeatClinic)  Time elapsed: 0.402 sec  <<< FAILURE!
+java.lang.AssertionError: expected [null] but found [Hoppin' Hot Sauce]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at com.atmecs.tutorialsninja.validation.HeatClinicvalidation.homeproductValidate(HeatClinicvalidation.java:25)
+	at com.atmecs.tutorialninja.testscripts.HeatClinic.heatclinic(HeatClinic.java:42)
+
+heatclinic(com.atmecs.tutorialninja.testscripts.HeatClinic)  Time elapsed: 0.313 sec  <<< FAILURE!
+java.lang.AssertionError: expected [null] but found [Hoppin' Hot Sauce]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at com.atmecs.tutorialsninja.validation.HeatClinicvalidation.homeproductValidate(HeatClinicvalidation.java:25)
+	at com.atmecs.tutorialninja.testscripts.HeatClinic.heatclinic(HeatClinic.java:42)
+
+heatclinic(com.atmecs.tutorialninja.testscripts.HeatClinic)  Time elapsed: 0.302 sec  <<< FAILURE!
+java.lang.AssertionError: expected [null] but found [Hoppin' Hot Sauce]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at com.atmecs.tutorialsninja.validation.HeatClinicvalidation.homeproductValidate(HeatClinicvalidation.java:25)
+	at com.atmecs.tutorialninja.testscripts.HeatClinic.heatclinic(HeatClinic.java:42)
+
+heatclinic(com.atmecs.tutorialninja.testscripts.HeatClinic)  Time elapsed: 0.333 sec  <<< FAILURE!
+java.lang.AssertionError: expected [] but found [Hoppin' Hot Sauce]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at com.atmecs.tutorialsninja.validation.HeatClinicvalidation.homeproductValidate(HeatClinicvalidation.java:25)
+	at com.atmecs.tutorialninja.testscripts.HeatClinic.heatclinic(HeatClinic.java:42)
+
+heatclinic(com.atmecs.tutorialninja.testscripts.HeatClinic)  Time elapsed: 0.415 sec  <<< FAILURE!
+java.lang.AssertionError: expected [null] but found [Hoppin' Hot Sauce]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at com.atmecs.tutorialsninja.validation.HeatClinicvalidation.homeproductValidate(HeatClinicvalidation.java:25)
+	at com.atmecs.tutorialninja.testscripts.HeatClinic.heatclinic(HeatClinic.java:42)
+
+heatclinic(com.atmecs.tutorialninja.testscripts.HeatClinic)  Time elapsed: 0.303 sec  <<< FAILURE!
+java.lang.AssertionError: expected [null] but found [Hoppin' Hot Sauce]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at com.atmecs.tutorialsninja.validation.HeatClinicvalidation.homeproductValidate(HeatClinicvalidation.java:25)
+	at com.atmecs.tutorialninja.testscripts.HeatClinic.heatclinic(HeatClinic.java:42)
+
+heatclinic(com.atmecs.tutorialninja.testscripts.HeatClinic)  Time elapsed: 0.289 sec  <<< FAILURE!
+java.lang.AssertionError: expected [null] but found [Hoppin' Hot Sauce]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at com.atmecs.tutorialsninja.validation.HeatClinicvalidation.homeproductValidate(HeatClinicvalidation.java:25)
+	at com.atmecs.tutorialninja.testscripts.HeatClinic.heatclinic(HeatClinic.java:42)
+
+heatclinic(com.atmecs.tutorialninja.testscripts.HeatClinic)  Time elapsed: 0.306 sec  <<< FAILURE!
+java.lang.AssertionError: expected [null] but found [Hoppin' Hot Sauce]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at com.atmecs.tutorialsninja.validation.HeatClinicvalidation.homeproductValidate(HeatClinicvalidation.java:25)
+	at com.atmecs.tutorialninja.testscripts.HeatClinic.heatclinic(HeatClinic.java:42)
+
+heatclinic(com.atmecs.tutorialninja.testscripts.HeatClinic)  Time elapsed: 0.301 sec  <<< FAILURE!
+java.lang.AssertionError: expected [null] but found [Hoppin' Hot Sauce]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at com.atmecs.tutorialsninja.validation.HeatClinicvalidation.homeproductValidate(HeatClinicvalidation.java:25)
+	at com.atmecs.tutorialninja.testscripts.HeatClinic.heatclinic(HeatClinic.java:42)
+
+heatclinic(com.atmecs.tutorialninja.testscripts.HeatClinic)  Time elapsed: 0.314 sec  <<< FAILURE!
+java.lang.AssertionError: expected [null] but found [Hoppin' Hot Sauce]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at com.atmecs.tutorialsninja.validation.HeatClinicvalidation.homeproductValidate(HeatClinicvalidation.java:25)
+	at com.atmecs.tutorialninja.testscripts.HeatClinic.heatclinic(HeatClinic.java:42)
+
+heatclinic(com.atmecs.tutorialninja.testscripts.HeatClinic)  Time elapsed: 0.386 sec  <<< FAILURE!
+java.lang.AssertionError: expected [null] but found [Hoppin' Hot Sauce]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at com.atmecs.tutorialsninja.validation.HeatClinicvalidation.homeproductValidate(HeatClinicvalidation.java:25)
+	at com.atmecs.tutorialninja.testscripts.HeatClinic.heatclinic(HeatClinic.java:42)
+
+heatclinic(com.atmecs.tutorialninja.testscripts.HeatClinic)  Time elapsed: 0.289 sec  <<< FAILURE!
+java.lang.AssertionError: expected [null] but found [Hoppin' Hot Sauce]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at com.atmecs.tutorialsninja.validation.HeatClinicvalidation.homeproductValidate(HeatClinicvalidation.java:25)
+	at com.atmecs.tutorialninja.testscripts.HeatClinic.heatclinic(HeatClinic.java:42)
+

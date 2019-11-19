@@ -1,0 +1,931 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">3 suites, 13 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-suite_name" class="navigator-link">
+              <span class="suite-name border-passed">suite name</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-suite_name" class="navigator-link ">
+                    <span>C:\Users\srinischal.thiparani\AssessmentTwo\tutorialninja\src\test\resources\suitefiles\homepage.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-suite_name" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-suite_name" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-suite_name" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-suite_name" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-suite_name" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-suite_name" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">1 method,   1 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-suite_name" class="hide-methods passed suite-suite_name"> (hide)</a> <!-- hide-methods passed suite-suite_name -->
+                      <a href="#" panel-name="suite-suite_name" class="show-methods passed suite-suite_name"> (show)</a> <!-- show-methods passed suite-suite_name -->
+                    </span>
+                    <div class="method-list-content passed suite-suite_name">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-suite_name" title="com.atmecs.tutorialninja.testscripts.HomePage" class="method navigator-link" hash-for-method="home([iPhone, 2.0, MacBook Air, 3.0, The Ninja Store, Availability: In Stock, iPhone is a revolutionary n...)">home([iPhone, 2.0, MacBook Air, 3.0, The Ninja Store, Availability: In Stock, iPhone is a revolutionary n...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-suite_name -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-suite_name_(0)" class="navigator-link">
+              <span class="suite-name border-failed">suite name (0)</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-suite_name_(0)" class="navigator-link ">
+                    <span>C:\Users\srinischal.thiparani\AssessmentTwo\tutorialninja\src\test\resources\suitefiles\heatclinic.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-suite_name_(0)" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-suite_name_(0)" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-suite_name_(0)" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-suite_name_(0)" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-suite_name_(0)" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-suite_name_(0)" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">13 methods, 13 failed,   </span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-suite_name_(0)" class="hide-methods failed suite-suite_name_(0)"> (hide)</a> <!-- hide-methods failed suite-suite_name_(0) -->
+                      <a href="#" panel-name="suite-suite_name_(0)" class="show-methods failed suite-suite_name_(0)"> (show)</a> <!-- show-methods failed suite-suite_name_(0) -->
+                    </span>
+                    <div class="method-list-content failed suite-suite_name_(0)">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-suite_name_(0)" title="com.atmecs.tutorialninja.testscripts.HeatClinic" class="method navigator-link" hash-for-method="heatclinic([null, null, null, null, null, null, null, null, null, null, null, null, null])">heatclinic([null, null, null, null, null, null, null, null, null, null, null, null, null])</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-suite_name_(0)" title="com.atmecs.tutorialninja.testscripts.HeatClinic" class="method navigator-link" hash-for-method="heatclinic([null, null, null, null, null, null, null, null, null, null, null, null, null])">heatclinic([null, null, null, null, null, null, null, null, null, null, null, null, null])</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-suite_name_(0)" title="com.atmecs.tutorialninja.testscripts.HeatClinic" class="method navigator-link" hash-for-method="heatclinic([null, null, null, null, null, null, null, null, null, null, null, null, null])">heatclinic([null, null, null, null, null, null, null, null, null, null, null, null, null])</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-suite_name_(0)" title="com.atmecs.tutorialninja.testscripts.HeatClinic" class="method navigator-link" hash-for-method="heatclinic([null, null, null, null, null, null, null, null, null, null, null, null, null])">heatclinic([null, null, null, null, null, null, null, null, null, null, null, null, null])</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-suite_name_(0)" title="com.atmecs.tutorialninja.testscripts.HeatClinic" class="method navigator-link" hash-for-method="heatclinic([null, null, null, null, null, null, null, null, null, null, null, null, null])">heatclinic([null, null, null, null, null, null, null, null, null, null, null, null, null])</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-suite_name_(0)" title="com.atmecs.tutorialninja.testscripts.HeatClinic" class="method navigator-link" hash-for-method="heatclinic([null, null, null, null, null, null, null, null, null, null, null, null, null])">heatclinic([null, null, null, null, null, null, null, null, null, null, null, null, null])</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-suite_name_(0)" title="com.atmecs.tutorialninja.testscripts.HeatClinic" class="method navigator-link" hash-for-method="heatclinic([Hoppin&#039; Hot Sauce, Day of the Dead Chipotle Hot Sauce, Hawt Like a Habanero Shirt (Men&#039;s), Green Gh...)">heatclinic([Hoppin' Hot Sauce, Day of the Dead Chipotle Hot Sauce, Hawt Like a Habanero Shirt (Men's), Green Gh...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-suite_name_(0)" title="com.atmecs.tutorialninja.testscripts.HeatClinic" class="method navigator-link" hash-for-method="heatclinic([null, null, null, null, null, null, null, null, null, null, null, null, null])">heatclinic([null, null, null, null, null, null, null, null, null, null, null, null, null])</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-suite_name_(0)" title="com.atmecs.tutorialninja.testscripts.HeatClinic" class="method navigator-link" hash-for-method="heatclinic([null, null, null, null, null, null, null, null, null, null, null, null, null])">heatclinic([null, null, null, null, null, null, null, null, null, null, null, null, null])</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-suite_name_(0)" title="com.atmecs.tutorialninja.testscripts.HeatClinic" class="method navigator-link" hash-for-method="heatclinic([null, null, null, null, null, null, null, null, null, null, null, null, null])">heatclinic([null, null, null, null, null, null, null, null, null, null, null, null, null])</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-suite_name_(0)" title="com.atmecs.tutorialninja.testscripts.HeatClinic" class="method navigator-link" hash-for-method="heatclinic([, null, null, null, null, null, null, null, null, null, null, null, null])">heatclinic([, null, null, null, null, null, null, null, null, null, null, null, null])</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-suite_name_(0)" title="com.atmecs.tutorialninja.testscripts.HeatClinic" class="method navigator-link" hash-for-method="heatclinic([null, null, null, null, null, null, null, null, null, null, null, null, null])">heatclinic([null, null, null, null, null, null, null, null, null, null, null, null, null])</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-suite_name_(0)" title="com.atmecs.tutorialninja.testscripts.HeatClinic" class="method navigator-link" hash-for-method="heatclinic([null, null, null, null, null, null, null, null, null, null, null, null, null])">heatclinic([null, null, null, null, null, null, null, null, null, null, null, null, null])</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-suite_name_(0) -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-suite_name" class="panel suite_name">
+          <div class="suite-suite_name-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.atmecs.tutorialninja.testscripts.HomePage</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="home([iPhone, 2.0, MacBook Air, 3.0, The Ninja Store, Availability: In Stock, iPhone is a revolutionary n...)">
+                  </a> <!-- home([iPhone, 2.0, MacBook Air, 3.0, The Ninja Store, Availability: In Stock, iPhone is a revolutionary n...) -->
+                  <span class="method-name">home</span>
+                  <span class="parameters">([iPhone, 2.0, MacBook Air, 3.0, The Ninja Store, Availability: In Stock, iPhone is a revolutionary new mobile phone that allows you to make a call by simply tapping a name or number in your address book, a favorites list, or a call log. It also automatically syncs all your contacts from a PC, Mac, or Internet service. And it lets you select and listen to voicemail messages in whatever order you want just like email., $123.20, Ex Tax: $101.00, MacBook Air, MacBook Air is ultrathin, ultraportable, and ultra unlike anything else. But you don’t lose inches and pounds overnight. It’s the result of rethinking conventions. Of multiple wireless innovations. And of breakthrough design. With MacBook Air, mobile computing suddenly has a new standard., $1,202.00, Ex Tax: $1,000.00, $3,852.40, $246.4])</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-suite_name-class-passed -->
+        </div> <!-- panel suite_name -->
+        <div panel-name="suite-suite_name_(0)" class="panel suite_name_(0)">
+          <div class="suite-suite_name_(0)-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.atmecs.tutorialninja.testscripts.HeatClinic</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="heatclinic([null, null, null, null, null, null, null, null, null, null, null, null, null])">
+                  </a> <!-- heatclinic([null, null, null, null, null, null, null, null, null, null, null, null, null]) -->
+                  <span class="method-name">heatclinic</span>
+                  <span class="parameters">([null, null, null, null, null, null, null, null, null, null, null, null, null])</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [null] but found [Hoppin&apos; Hot Sauce]
+	at com.atmecs.tutorialsninja.validation.HeatClinicvalidation.homeproductValidate(HeatClinicvalidation.java:25)
+	at com.atmecs.tutorialninja.testscripts.HeatClinic.heatclinic(HeatClinic.java:42)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:830)
+... Removed 22 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="heatclinic([null, null, null, null, null, null, null, null, null, null, null, null, null])">
+                  </a> <!-- heatclinic([null, null, null, null, null, null, null, null, null, null, null, null, null]) -->
+                  <span class="method-name">heatclinic</span>
+                  <span class="parameters">([null, null, null, null, null, null, null, null, null, null, null, null, null])</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [null] but found [Hoppin&apos; Hot Sauce]
+	at com.atmecs.tutorialsninja.validation.HeatClinicvalidation.homeproductValidate(HeatClinicvalidation.java:25)
+	at com.atmecs.tutorialninja.testscripts.HeatClinic.heatclinic(HeatClinic.java:42)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:830)
+... Removed 22 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="heatclinic([null, null, null, null, null, null, null, null, null, null, null, null, null])">
+                  </a> <!-- heatclinic([null, null, null, null, null, null, null, null, null, null, null, null, null]) -->
+                  <span class="method-name">heatclinic</span>
+                  <span class="parameters">([null, null, null, null, null, null, null, null, null, null, null, null, null])</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [null] but found [Hoppin&apos; Hot Sauce]
+	at com.atmecs.tutorialsninja.validation.HeatClinicvalidation.homeproductValidate(HeatClinicvalidation.java:25)
+	at com.atmecs.tutorialninja.testscripts.HeatClinic.heatclinic(HeatClinic.java:42)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:830)
+... Removed 22 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="heatclinic([null, null, null, null, null, null, null, null, null, null, null, null, null])">
+                  </a> <!-- heatclinic([null, null, null, null, null, null, null, null, null, null, null, null, null]) -->
+                  <span class="method-name">heatclinic</span>
+                  <span class="parameters">([null, null, null, null, null, null, null, null, null, null, null, null, null])</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [null] but found [Hoppin&apos; Hot Sauce]
+	at com.atmecs.tutorialsninja.validation.HeatClinicvalidation.homeproductValidate(HeatClinicvalidation.java:25)
+	at com.atmecs.tutorialninja.testscripts.HeatClinic.heatclinic(HeatClinic.java:42)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:830)
+... Removed 22 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="heatclinic([null, null, null, null, null, null, null, null, null, null, null, null, null])">
+                  </a> <!-- heatclinic([null, null, null, null, null, null, null, null, null, null, null, null, null]) -->
+                  <span class="method-name">heatclinic</span>
+                  <span class="parameters">([null, null, null, null, null, null, null, null, null, null, null, null, null])</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [null] but found [Hoppin&apos; Hot Sauce]
+	at com.atmecs.tutorialsninja.validation.HeatClinicvalidation.homeproductValidate(HeatClinicvalidation.java:25)
+	at com.atmecs.tutorialninja.testscripts.HeatClinic.heatclinic(HeatClinic.java:42)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:830)
+... Removed 22 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="heatclinic([null, null, null, null, null, null, null, null, null, null, null, null, null])">
+                  </a> <!-- heatclinic([null, null, null, null, null, null, null, null, null, null, null, null, null]) -->
+                  <span class="method-name">heatclinic</span>
+                  <span class="parameters">([null, null, null, null, null, null, null, null, null, null, null, null, null])</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [null] but found [Hoppin&apos; Hot Sauce]
+	at com.atmecs.tutorialsninja.validation.HeatClinicvalidation.homeproductValidate(HeatClinicvalidation.java:25)
+	at com.atmecs.tutorialninja.testscripts.HeatClinic.heatclinic(HeatClinic.java:42)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:830)
+... Removed 22 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="heatclinic([Hoppin&#039; Hot Sauce, Day of the Dead Chipotle Hot Sauce, Hawt Like a Habanero Shirt (Men&#039;s), Green Gh...)">
+                  </a> <!-- heatclinic([Hoppin' Hot Sauce, Day of the Dead Chipotle Hot Sauce, Hawt Like a Habanero Shirt (Men's), Green Gh...) -->
+                  <span class="method-name">heatclinic</span>
+                  <span class="parameters">([Hoppin' Hot Sauce, Day of the Dead Chipotle Hot Sauce, Hawt Like a Habanero Shirt (Men's), Green Ghost, This is an example of a content-managed page., This is an example of a content-managed page., Viewing Mens (1 - 3 of 3), Shirt, Hawt Like a Habanero Shirt (Men's)
+Shirt Size: M
+Personalized Name: Shirt
+Shirt Color: Red, $14.99, $14.99, 5.0, 74.95])</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;a id=&quot;cartLink&quot; class=&quot;modalcart&quot; href=&quot;/cart&quot;&gt;...&lt;/a&gt; is not clickable at point (930, 19). Other element would receive the click: &lt;div id=&quot;simplemodal-overlay&quot; class=&quot;simplemodal-overlay&quot; style=&quot;opacity: 0.5; height: 1395px; width: 1014px; position: fixed; left: 0px; top: 0px; z-index: 1001;&quot;&gt;&lt;/div&gt;
+  (Session info: chrome=78.0.3904.97)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;ATMECSINLT-060&apos;, ip: &apos;55.55.52.253&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;13.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.97, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: C:\Windows\TEMP\scoped_dir1...}, goog:chromeOptions: {debuggerAddress: localhost:61572}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 4e943897bb5549a72ff16b5c8010f504
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at com.atmecs.tutorialninja.Testsuite.Pageactions.clickOnElement(Pageactions.java:84)
+	at com.atmecs.tutorialninja.testscripts.HeatClinic.heatclinic(HeatClinic.java:61)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:830)
+... Removed 21 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="heatclinic([null, null, null, null, null, null, null, null, null, null, null, null, null])">
+                  </a> <!-- heatclinic([null, null, null, null, null, null, null, null, null, null, null, null, null]) -->
+                  <span class="method-name">heatclinic</span>
+                  <span class="parameters">([null, null, null, null, null, null, null, null, null, null, null, null, null])</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [null] but found [Hoppin&apos; Hot Sauce]
+	at com.atmecs.tutorialsninja.validation.HeatClinicvalidation.homeproductValidate(HeatClinicvalidation.java:25)
+	at com.atmecs.tutorialninja.testscripts.HeatClinic.heatclinic(HeatClinic.java:42)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:830)
+... Removed 22 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="heatclinic([null, null, null, null, null, null, null, null, null, null, null, null, null])">
+                  </a> <!-- heatclinic([null, null, null, null, null, null, null, null, null, null, null, null, null]) -->
+                  <span class="method-name">heatclinic</span>
+                  <span class="parameters">([null, null, null, null, null, null, null, null, null, null, null, null, null])</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [null] but found [Hoppin&apos; Hot Sauce]
+	at com.atmecs.tutorialsninja.validation.HeatClinicvalidation.homeproductValidate(HeatClinicvalidation.java:25)
+	at com.atmecs.tutorialninja.testscripts.HeatClinic.heatclinic(HeatClinic.java:42)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:830)
+... Removed 22 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="heatclinic([null, null, null, null, null, null, null, null, null, null, null, null, null])">
+                  </a> <!-- heatclinic([null, null, null, null, null, null, null, null, null, null, null, null, null]) -->
+                  <span class="method-name">heatclinic</span>
+                  <span class="parameters">([null, null, null, null, null, null, null, null, null, null, null, null, null])</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [null] but found [Hoppin&apos; Hot Sauce]
+	at com.atmecs.tutorialsninja.validation.HeatClinicvalidation.homeproductValidate(HeatClinicvalidation.java:25)
+	at com.atmecs.tutorialninja.testscripts.HeatClinic.heatclinic(HeatClinic.java:42)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:830)
+... Removed 22 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="heatclinic([, null, null, null, null, null, null, null, null, null, null, null, null])">
+                  </a> <!-- heatclinic([, null, null, null, null, null, null, null, null, null, null, null, null]) -->
+                  <span class="method-name">heatclinic</span>
+                  <span class="parameters">([, null, null, null, null, null, null, null, null, null, null, null, null])</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [] but found [Hoppin&apos; Hot Sauce]
+	at com.atmecs.tutorialsninja.validation.HeatClinicvalidation.homeproductValidate(HeatClinicvalidation.java:25)
+	at com.atmecs.tutorialninja.testscripts.HeatClinic.heatclinic(HeatClinic.java:42)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:830)
+... Removed 22 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="heatclinic([null, null, null, null, null, null, null, null, null, null, null, null, null])">
+                  </a> <!-- heatclinic([null, null, null, null, null, null, null, null, null, null, null, null, null]) -->
+                  <span class="method-name">heatclinic</span>
+                  <span class="parameters">([null, null, null, null, null, null, null, null, null, null, null, null, null])</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [null] but found [Hoppin&apos; Hot Sauce]
+	at com.atmecs.tutorialsninja.validation.HeatClinicvalidation.homeproductValidate(HeatClinicvalidation.java:25)
+	at com.atmecs.tutorialninja.testscripts.HeatClinic.heatclinic(HeatClinic.java:42)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:830)
+... Removed 22 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="heatclinic([null, null, null, null, null, null, null, null, null, null, null, null, null])">
+                  </a> <!-- heatclinic([null, null, null, null, null, null, null, null, null, null, null, null, null]) -->
+                  <span class="method-name">heatclinic</span>
+                  <span class="parameters">([null, null, null, null, null, null, null, null, null, null, null, null, null])</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [null] but found [Hoppin&apos; Hot Sauce]
+	at com.atmecs.tutorialsninja.validation.HeatClinicvalidation.homeproductValidate(HeatClinicvalidation.java:25)
+	at com.atmecs.tutorialninja.testscripts.HeatClinic.heatclinic(HeatClinic.java:42)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:830)
+... Removed 22 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-suite_name_(0)-class-failed -->
+        </div> <!-- panel suite_name_(0) -->
+        <div panel-name="suite-ASSESSMENTWEBPAGES" class="panel ASSESSMENTWEBPAGES">
+        </div> <!-- panel ASSESSMENTWEBPAGES -->
+        <div panel-name="test-xml-suite_name" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\srinischal.thiparani\AssessmentTwo\tutorialninja\src\test\resources\suitefiles\homepage.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite parallel=&quot;tests&quot; name=&quot;suite name&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; parallel=&quot;tests&quot; name=&quot;HomePage&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.atmecs.tutorialninja.testscripts.HomePage&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- HomePage --&gt;
+&lt;/suite&gt; &lt;!-- suite name --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="test-xml-suite_name_(0)" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\srinischal.thiparani\AssessmentTwo\tutorialninja\src\test\resources\suitefiles\heatclinic.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite parallel=&quot;tests&quot; name=&quot;suite name (0)&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; parallel=&quot;tests&quot; name=&quot;HomePage&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.atmecs.tutorialninja.testscripts.HeatClinic&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- HomePage --&gt;
+&lt;/suite&gt; &lt;!-- suite name (0) --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="test-xml-ASSESSMENTWEBPAGES" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\srinischal.thiparani\AssessmentTwo\tutorialninja\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;ASSESSMENTWEBPAGES&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;suite-files&gt;
+    &lt;suite-file path=&quot;C:\Users\Srinischal.Thiparani\AssessmentTwo\tutorialninja\src\test\resources\suitefiles\homepage.xml&quot;/&gt;
+    &lt;suite-file path=&quot;C:\Users\Srinischal.Thiparani\AssessmentTwo\tutorialninja\src\test\resources\suitefiles\heatclinic.xml&quot;/&gt;
+  &lt;/suite-files&gt;
+&lt;/suite&gt; &lt;!-- ASSESSMENTWEBPAGES --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-suite_name" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for suite name</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">HomePage (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-suite_name_(0)" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for suite name (0)</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">HomePage (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-ASSESSMENTWEBPAGES" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for ASSESSMENTWEBPAGES</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-suite_name" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for suite name</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-suite_name_(0)" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for suite name (0)</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-ASSESSMENTWEBPAGES" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for ASSESSMENTWEBPAGES</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-suite_name" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for suite name</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_suite_name');
+function tableData_suite_name() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(1);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'home')
+data.setCell(0, 2, 'com.atmecs.tutorialninja.testscripts.HomePage')
+data.setCell(0, 3, 12295);
+window.suiteTableData['suite_name']= { tableData: data, tableDiv: 'times-div-suite_name'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 12 seconds</span>
+              <div id="times-div-suite_name">
+              </div> <!-- times-div-suite_name -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-suite_name_(0)" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for suite name (0)</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_suite_name_(0)');
+function tableData_suite_name_(0)() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(13);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'heatclinic')
+data.setCell(0, 2, 'com.atmecs.tutorialninja.testscripts.HeatClinic')
+data.setCell(0, 3, 3953);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'heatclinic')
+data.setCell(1, 2, 'com.atmecs.tutorialninja.testscripts.HeatClinic')
+data.setCell(1, 3, 414);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'heatclinic')
+data.setCell(2, 2, 'com.atmecs.tutorialninja.testscripts.HeatClinic')
+data.setCell(2, 3, 404);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'heatclinic')
+data.setCell(3, 2, 'com.atmecs.tutorialninja.testscripts.HeatClinic')
+data.setCell(3, 3, 387);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'heatclinic')
+data.setCell(4, 2, 'com.atmecs.tutorialninja.testscripts.HeatClinic')
+data.setCell(4, 3, 334);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'heatclinic')
+data.setCell(5, 2, 'com.atmecs.tutorialninja.testscripts.HeatClinic')
+data.setCell(5, 3, 314);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'heatclinic')
+data.setCell(6, 2, 'com.atmecs.tutorialninja.testscripts.HeatClinic')
+data.setCell(6, 3, 312);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'heatclinic')
+data.setCell(7, 2, 'com.atmecs.tutorialninja.testscripts.HeatClinic')
+data.setCell(7, 3, 306);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'heatclinic')
+data.setCell(8, 2, 'com.atmecs.tutorialninja.testscripts.HeatClinic')
+data.setCell(8, 3, 303);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'heatclinic')
+data.setCell(9, 2, 'com.atmecs.tutorialninja.testscripts.HeatClinic')
+data.setCell(9, 3, 302);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'heatclinic')
+data.setCell(10, 2, 'com.atmecs.tutorialninja.testscripts.HeatClinic')
+data.setCell(10, 3, 300);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'heatclinic')
+data.setCell(11, 2, 'com.atmecs.tutorialninja.testscripts.HeatClinic')
+data.setCell(11, 3, 289);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'heatclinic')
+data.setCell(12, 2, 'com.atmecs.tutorialninja.testscripts.HeatClinic')
+data.setCell(12, 3, 288);
+window.suiteTableData['suite_name_(0)']= { tableData: data, tableDiv: 'times-div-suite_name_(0)'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 7 seconds</span>
+              <div id="times-div-suite_name_(0)">
+              </div> <!-- times-div-suite_name_(0) -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-ASSESSMENTWEBPAGES" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for ASSESSMENTWEBPAGES</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_ASSESSMENTWEBPAGES');
+function tableData_ASSESSMENTWEBPAGES() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(0);
+window.suiteTableData['ASSESSMENTWEBPAGES']= { tableData: data, tableDiv: 'times-div-ASSESSMENTWEBPAGES'}
+return data;
+}
+              </script>
+              <div id="times-div-ASSESSMENTWEBPAGES">
+              </div> <!-- times-div-ASSESSMENTWEBPAGES -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-suite_name" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for suite name</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-suite_name_(0)" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for suite name (0)</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-ASSESSMENTWEBPAGES" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for ASSESSMENTWEBPAGES</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-suite_name" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-suite_name_(0)" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-ASSESSMENTWEBPAGES" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-suite_name" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.atmecs.tutorialninja.testscripts.HomePage</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">invokeBrowser</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-class before">
+                <span class="method-name">before</span>
+                <span class="method-start">6078 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">home([iPhone, 2.0, MacBook Air, 3.0, The Ninja Store, Availability: In Stock, iPhone is a revolutionary n...)</span>
+                <span class="method-start">14912 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-suite_name_(0)" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.atmecs.tutorialninja.testscripts.HeatClinic</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">invokeBrowser</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-class before">
+                <span class="method-name">before</span>
+                <span class="method-start">5303 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">heatclinic([Hoppin' Hot Sauce, Day of the Dead Chipotle Hot Sauce, Hawt Like a Habanero Shirt (Men's), Green Gh...)</span>
+                <span class="method-start">10488 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">heatclinic([null, null, null, null, null, null, null, null, null, null, null, null, null])</span>
+                <span class="method-start">14448 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">heatclinic([null, null, null, null, null, null, null, null, null, null, null, null, null])</span>
+                <span class="method-start">14853 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">heatclinic([null, null, null, null, null, null, null, null, null, null, null, null, null])</span>
+                <span class="method-start">15166 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">heatclinic([, null, null, null, null, null, null, null, null, null, null, null, null])</span>
+                <span class="method-start">15468 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">heatclinic([null, null, null, null, null, null, null, null, null, null, null, null, null])</span>
+                <span class="method-start">15802 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">heatclinic([null, null, null, null, null, null, null, null, null, null, null, null, null])</span>
+                <span class="method-start">16217 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">heatclinic([null, null, null, null, null, null, null, null, null, null, null, null, null])</span>
+                <span class="method-start">16520 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">heatclinic([null, null, null, null, null, null, null, null, null, null, null, null, null])</span>
+                <span class="method-start">16809 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">heatclinic([null, null, null, null, null, null, null, null, null, null, null, null, null])</span>
+                <span class="method-start">17115 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">heatclinic([null, null, null, null, null, null, null, null, null, null, null, null, null])</span>
+                <span class="method-start">17416 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">heatclinic([null, null, null, null, null, null, null, null, null, null, null, null, null])</span>
+                <span class="method-start">17730 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">heatclinic([null, null, null, null, null, null, null, null, null, null, null, null, null])</span>
+                <span class="method-start">18117 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-ASSESSMENTWEBPAGES" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
