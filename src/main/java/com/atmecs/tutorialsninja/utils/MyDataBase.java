@@ -56,6 +56,7 @@ public class MyDataBase {
 	}
 }
 
+
 //databasename
 //select columnName
 //from tableName

@@ -4,9 +4,6 @@
 <suite name="ASSESSMENTWEBPAGES">
 	<suite-files>
 		<suite-file
-			path="src/test/resources/suitefiles/heatclinic.xml" />
-			
-			<suite-file
 			path="src/test/resources/suitefiles/homepage.xml" />
 			
 	</suite-files>

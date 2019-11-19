@@ -3,10 +3,17 @@ package com.atmecs.tutorialsninja.validation;
 import org.openqa.selenium.WebDriver;
 import com.atmecs.tutorialninja.Testsuite.Pageactions;
 import com.atmecs.tutorialninja.helper.HeatClinicHelper;
+import com.atmecs.tutorialninja.helper.HomepageHelper;
+import com.atmecs.tutorialsninja.utils.LogReport;
+import com.atmecs.tutorialsninja.utils.MyDataBase;
+import com.atmecs.tutorialsninja.utils.ReadLocatorsFile;
 
 public class HeatClinicvalidation {
 	Pageactions page;
+	ReadLocatorsFile read;
 	HeatClinicHelper helper;
+	LogReport log;
+    MyDataBase database;
 
 	public void homeproductValidate(WebDriver driver) throws Exception {
 		page = new Pageactions(driver);

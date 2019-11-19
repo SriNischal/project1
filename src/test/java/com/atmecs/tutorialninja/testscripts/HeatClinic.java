@@ -50,21 +50,21 @@ public class HeatClinic extends TestBase{
 		page=new Pageactions(driver);
 		log.info("Script started");
 		page.clickOnElement(ReadLocatorsFile.readPropertiesFile("loc.home.btn", ProjectBaseConstantPaths.LOCATORS_FILE));
-		//validate.homeproductValidate(driver);
+		validate.homeproductValidate(driver);
 		page.clickOnElement(ReadLocatorsFile.readPropertiesFile("loc.hotsauces.btn", ProjectBaseConstantPaths.LOCATORS_FILE));
-		//validate.hotsauceproductValidate(driver);
-		//log.info("completed validating hotsauces");
+		validate.hotsauceproductValidate(driver);
+		log.info("completed validating hotsauces");
 		page.clickOnElement(ReadLocatorsFile.readPropertiesFile("loc.merchandise.btn", ProjectBaseConstantPaths.LOCATORS_FILE));
-		//validate.merchandiseproductValidate(driver);
+		validate.merchandiseproductValidate(driver);
 		page.clickOnElement(ReadLocatorsFile.readPropertiesFile("loc.clearance.btn", ProjectBaseConstantPaths.LOCATORS_FILE));
-		//validate.clearanceproductValidate(driver);
+		validate.clearanceproductValidate(driver);
 		page.clickOnElement(ReadLocatorsFile.readPropertiesFile("loc.newtohotsauce.btn", ProjectBaseConstantPaths.LOCATORS_FILE));
-		//validate.newtohotsauceproductValidate(driver);
+		validate.newtohotsauceproductValidate(driver);
 		page.clickOnElement(ReadLocatorsFile.readPropertiesFile("loc.faq.btn", ProjectBaseConstantPaths.LOCATORS_FILE));
-		//validate.faqproductValidate(driver);
+		validate.faqproductValidate(driver);
 		page.mouseOn(ReadLocatorsFile.readPropertiesFile("loc.merchandise.btn", ProjectBaseConstantPaths.LOCATORS_FILE));
 		page.clickOnElement(ReadLocatorsFile.readPropertiesFile("loc.mens.btn", ProjectBaseConstantPaths.LOCATORS_FILE));
-		//validate.mensValidate(driver);
+		validate.mensValidate(driver);
 		page.clickOnElement(ReadLocatorsFile.readPropertiesFile("loc.product.btn", ProjectBaseConstantPaths.LOCATORS_FILE));
 		page.clickOnElement(ReadLocatorsFile.readPropertiesFile("loc.red.btn", ProjectBaseConstantPaths.LOCATORS_FILE));
 		page.clickOnElement(ReadLocatorsFile.readPropertiesFile("loc.medium.btn", ProjectBaseConstantPaths.LOCATORS_FILE));
@@ -75,9 +75,9 @@ public class HeatClinic extends TestBase{
 		wait.threadwait();
 		page.clickOnElement(ReadLocatorsFile.readPropertiesFile("loc.cart.btn", ProjectBaseConstantPaths.LOCATORS_FILE));
 		//log.info("done");
-		//validate.productValidate(driver);
-		//validate.priceValidate(driver);
-		//validate.totalpriceValidate(driver);
+		validate.productValidate(driver);
+		validate.priceValidate(driver);
+		validate.totalpriceValidate(driver);
 		page.clear(ReadLocatorsFile.readPropertiesFile("loc.quantity.txt", ProjectBaseConstantPaths.LOCATORS_FILE));
 		//String quantity=page.getdata_fromExcel("Sheet3", "Values to enter", "quantity");
 		String quantity=database.db("assessment", "heatclinic", "name", 2);
@@ -85,7 +85,7 @@ public class HeatClinic extends TestBase{
 		page.clickOnElement(ReadLocatorsFile.readPropertiesFile("loc.update.btn", ProjectBaseConstantPaths.LOCATORS_FILE));
 		driver.switchTo().alert().accept();
 		page.clickOnElement(ReadLocatorsFile.readPropertiesFile("loc.update.btn", ProjectBaseConstantPaths.LOCATORS_FILE));
-		//validate.updatepriceValidate(driver);
+		validate.updatepriceValidate(driver);
 	}
 	/*
 	 * @AfterClass public void teardown() { driver.quit(); }

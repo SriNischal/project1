@@ -2,24 +2,28 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2019-11-18T17:06:10 IST" name="Default suite" finished-at="2019-11-18T17:06:53 IST" duration-ms="43525">
+  <suite started-at="2019-11-19T14:16:08 IST" name="suite name" finished-at="2019-11-19T14:16:51 IST" duration-ms="43244">
     <groups>
     </groups>
-    <test started-at="2019-11-18T17:06:10 IST" name="Default test" finished-at="2019-11-18T17:06:53 IST" duration-ms="43525">
+    <test started-at="2019-11-19T14:16:08 IST" name="HomePage" finished-at="2019-11-19T14:16:51 IST" duration-ms="43244">
       <class name="com.atmecs.tutorialninja.testscripts.HomePage">
-        <test-method is-config="true" signature="invokeBrowser()[pri:0, instance:com.atmecs.tutorialninja.testscripts.HomePage@1fa268de]" started-at="2019-11-18T17:06:10 IST" name="invokeBrowser" finished-at="2019-11-18T17:06:16 IST" duration-ms="6508" status="PASS">
+        <test-method is-config="true" signature="invokeBrowser()[pri:0, instance:com.atmecs.tutorialninja.testscripts.HomePage@4fb0f2b9]" started-at="2019-11-19T14:16:08 IST" name="invokeBrowser" finished-at="2019-11-19T14:16:14 IST" duration-ms="6308" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invokeBrowser -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.atmecs.tutorialninja.testscripts.HomePage@1fa268de]" started-at="2019-11-18T17:06:16 IST" name="setup" finished-at="2019-11-18T17:06:25 IST" duration-ms="8208" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.atmecs.tutorialninja.testscripts.HomePage@4fb0f2b9]" started-at="2019-11-19T14:16:14 IST" name="setup" finished-at="2019-11-19T14:16:22 IST" duration-ms="7984" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="home()[pri:0, instance:com.atmecs.tutorialninja.testscripts.HomePage@1fa268de]" started-at="2019-11-18T17:06:25 IST" name="home" finished-at="2019-11-18T17:06:53 IST" duration-ms="28760" status="PASS">
+        <test-method signature="home()[pri:0, instance:com.atmecs.tutorialninja.testscripts.HomePage@4fb0f2b9]" started-at="2019-11-19T14:16:22 IST" name="home" finished-at="2019-11-19T14:16:51 IST" duration-ms="28901" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- home -->
       </class> <!-- com.atmecs.tutorialninja.testscripts.HomePage -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- HomePage -->
+  </suite> <!-- suite name -->
+  <suite started-at="2019-11-19T14:16:51 IST" name="ASSESSMENTWEBPAGES" finished-at="2019-11-19T14:16:51 IST" duration-ms="0">
+    <groups>
+    </groups>
+  </suite> <!-- ASSESSMENTWEBPAGES -->
 </testng-results>
